@@ -23,7 +23,7 @@ public class FilmsController : ControllerBase
     {
         using (var client = _httpClientFactory.CreateClient())
         {
-            // Make a GET request to retrieve film data based on the provided ID
+            // Make a GET request to retrieve film data based on the provided url
             HttpResponseMessage response = await client.GetAsync(url.url);
 
             if (response.IsSuccessStatusCode)
@@ -37,7 +37,6 @@ public class FilmsController : ControllerBase
             }
             else
             {
-                // Return a NotFound result if the film with the specified ID is not found
                 return NotFound();
             }
         }
@@ -136,7 +135,6 @@ private async Task<(string StarshipName, string StarshipLength, string PersonNam
 
         return Ok(new { history = response });
 
-        //return Ok(response);
     }
 
 

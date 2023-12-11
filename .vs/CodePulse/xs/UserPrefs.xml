@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{E3E1D569-ADDF-4BCC-9B8B-C331316AC48C}|https">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CodePulse/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodePulse/Controllers/StarshipsController.cs">
     <Files>
       <File FileName="CodePulse/Data/ApplicationDbContext.cs" />
       <File FileName="CodePulse/appsettings.json" />
       <File FileName="CodePulse/Program.cs" Line="54" Column="1" />
-      <File FileName="CodePulse/Properties/launchSettings.json" />
-      <File FileName="CodePulse/Models/ErrorViewModel.cs" />
+      <File FileName="CodePulse/Properties/launchSettings.json" Line="22" Column="15" />
+      <File FileName="CodePulse/Models/ErrorViewModel.cs" Line="1" Column="1" />
       <File FileName="CodePulse/Models/Domain/Person.cs" />
       <File FileName="CodePulse/Models/Domain/Film.cs" />
       <File FileName="CodePulse/Models/Domain/Starship.cs" />
-      <File FileName="CodePulse/Controllers/StarshipsController.cs" Line="123" Column="1" />
+      <File FileName="CodePulse/Controllers/StarshipsController.cs" Line="74" Column="15" />
       <File FileName="CodePulse/Models/Domain/Search.cs" />
       <File FileName="CodePulse/Repositories/Implementation/SearchRepository.cs" />
       <File FileName="CodePulse/Models/DTO/SearchDto.cs" />
@@ -19,15 +19,15 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CodePulse" expanded="True">
-            <Node name="CodePulse" expanded="True" selected="True">
+          <Node name="CodePulse">
+            <Node name="CodePulse" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="Domain" expanded="True" />
                 <Node name="DTO" expanded="True" />
               </Node>
+              <Node name="Properties" expanded="True" />
               <Node name="Repositories" expanded="True">
                 <Node name="Implementation" expanded="True" />
               </Node>
