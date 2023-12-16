@@ -308,6 +308,7 @@
 /Users/kumarsunny/Desktop/Hays/API/CodePulse/bin/Debug/net7.0/Azure.Core.dll
 /Users/kumarsunny/Desktop/Hays/API/CodePulse/bin/Debug/net7.0/Azure.Identity.dll
 /Users/kumarsunny/Desktop/Hays/API/CodePulse/bin/Debug/net7.0/Humanizer.dll
+/Users/kumarsunny/Desktop/Hays/API/CodePulse/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/kumarsunny/Desktop/Hays/API/CodePulse/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/kumarsunny/Desktop/Hays/API/CodePulse/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
 /Users/kumarsunny/Desktop/Hays/API/CodePulse/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll

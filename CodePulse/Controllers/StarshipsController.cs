@@ -6,12 +6,12 @@ using System.Linq;
 
 [ApiController]
 
-public class FilmsController : ControllerBase
+public class StarshipsController : ControllerBase
 {
     private readonly IHttpClientFactory _httpClientFactory;
     private readonly SearchRepository _searchRepository;
 
-    public FilmsController(IHttpClientFactory httpClientFactory, SearchRepository searchRepository)
+    public StarshipsController(IHttpClientFactory httpClientFactory, SearchRepository searchRepository)
     {
         _httpClientFactory = httpClientFactory;
         _searchRepository = searchRepository;
@@ -99,17 +99,7 @@ private async Task<(string StarshipName, string StarshipLength, string PersonNam
 
         await _searchRepository.CreateAsync(request);
 
-        var responseList = new List<SearchDto>
-        {
-            new SearchDto
-            {
-                keyword = search.keyword,
-                result = search.result,
-                type = search.type
-            }
-        };
-
-        return Ok(responseList);
+        return Ok(request);
 
     }
 
@@ -132,6 +122,7 @@ private async Task<(string StarshipName, string StarshipLength, string PersonNam
                 type = history.type
             });
         };
+
 
         return Ok(new { history = response });
 

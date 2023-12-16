@@ -11,6 +11,12 @@ namespace CodePulse.Data
 
         }
         public DbSet<Search> searchs { get; set; }
+        public DbSet<User> users { get; set; }
+
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<User>().ToTable("users");
+        //}
     }
 }
 
