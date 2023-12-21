@@ -1,36 +1,46 @@
-﻿<Properties StartupConfiguration="{E3E1D569-ADDF-4BCC-9B8B-C331316AC48C}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties StartupConfiguration="{E3E1D569-ADDF-4BCC-9B8B-C331316AC48C}|https" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CodePulse/Properties/launchSettings.json">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/kumarsunny/Desktop/Hays/API/CodePulse/Controllers/CategoriesController.cs" relfile="CodePulse/Controllers/CategoriesController.cs" line="110" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.CodePulse PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodePulse/Controllers/UserController.cs">
     <Files>
       <File FileName="CodePulse/Data/ApplicationDbContext.cs" />
       <File FileName="CodePulse/Program.cs" />
-      <File FileName="CodePulse/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="CodePulse/Properties/launchSettings.json" />
       <File FileName="CodePulse/Models/ErrorViewModel.cs" />
       <File FileName="CodePulse/Models/Domain/Person.cs" />
       <File FileName="CodePulse/Models/Domain/Film.cs" />
       <File FileName="CodePulse/Models/Domain/Starship.cs" />
-      <File FileName="CodePulse/Controllers/StarshipsController.cs" />
       <File FileName="CodePulse/Models/Domain/Search.cs" />
       <File FileName="CodePulse/Repositories/Implementation/SearchRepository.cs" />
       <File FileName="CodePulse/Models/DTO/SearchDto.cs" />
       <File FileName="CodePulse/Models/Domain/Url.cs" />
       <File FileName="CodePulse/Models/Domain/User.cs" />
-      <File FileName="CodePulse/Migrations/20231215182851_SearchTable_and_UserTable.cs" />
       <File FileName="CodePulse/Migrations/ApplicationDbContextModelSnapshot.cs" />
-      <File FileName="CodePulse/Migrations/20231215184842_UserTable.cs" />
-      <File FileName="CodePulse/Controllers/UserController.cs" />
       <File FileName="CodePulse/appsettings.json" />
-      <File FileName="CodePulse/CodePulse.csproj" />
+      <File FileName="CodePulse/Migrations/20231215211258_SearchTableAndUserTable.cs" />
+      <File FileName="CodePulse/Helper/PasswordHasher.cs" />
+      <File FileName="CodePulse/Controllers/UserController.cs" Line="124" Column="15" />
+      <File FileName="CodePulse/Controllers/StarshipsController.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CodePulse">
-            <Node name="CodePulse" selected="True">
+            <Node name="CodePulse">
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
-              <Node name="Properties" expanded="True" />
+              <Node name="Helper" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Domain" expanded="True" />
+                <Node name="DTO" expanded="True" />
+              </Node>
               <Node name="Repositories" expanded="True">
                 <Node name="Implementation" expanded="True" />
               </Node>
@@ -38,13 +48,9 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/kumarsunny/Desktop/Hays/API/CodePulse/Controllers/CategoriesController.cs" relfile="CodePulse/Controllers/CategoriesController.cs" line="110" column="1" />
-      <Breakpoint file="/Users/kumarsunny/Desktop/Hays/API/CodePulse/Controllers/UserController.cs" relfile="CodePulse/Controllers/UserController.cs" line="22" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.CodePulse PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
